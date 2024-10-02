@@ -44,5 +44,19 @@ If you do not have access to LLAMA2, you can alternatively use OpenAI models if 
    cd LLAMA2
    ./env.sh
    streamlit run main.py
+# config.yml
+# Elastic Cloud configuration
+
+elastic_cloud:
+  cloud_id: "<Your_Elastic_Cloud_ID>"
+  username: "elastic"
+  password: "<Your_Password>"
+  index_name: "search-clorox"
+
+# Streamlit configuration
+streamlit:
+  run_command: "streamlit run main.py"
+
+# Make sure you have the necessary permissions and environment set up
 
 
