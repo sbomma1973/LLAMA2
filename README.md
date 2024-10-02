@@ -1,8 +1,15 @@
+
+Readme:
+
 This a demo program for SAs to be able to download this repo and demo Elastic's Semantic search as well as RAG-based GenAI capabilities
 Some prereqs to run this 
   This uses a gated Hugging face model (LLAMA2)
   Follow the instructions to get permissions to use LLAMA2 at huggingface
-    To download models from Hugging Face, you must first have a Huggingface account. Sign up at this URL, and then obtain your token at this location.
+    
+    
+    Step 1 To download models from Hugging Face, you must first have a Huggingface account. Sign up at this URL, and then obtain your token at this location.
+    
+    
     Step 2. Request Llama 2 --> Otherwise use OpenAI if you have access to that model 
        To download and use the Llama 2 model, simply fill out Meta’s form to request access. Please note that utilizing Llama 2 is contingent upon accepting the Meta license agreement.
     After filling out the form, you will receive an email containing a URL that can be used to download the model.
